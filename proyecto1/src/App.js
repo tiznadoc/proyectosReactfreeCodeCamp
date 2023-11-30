@@ -8,6 +8,7 @@ function App() {
         <h1>Here is what our alumni say about freeCodeCamp:</h1>
         <Testimonio 
           image='Shawn'
+          alt="Shawn's picture"
           name='Shawn Wang'
           country='Singapore'
           job='Software Engineer'
@@ -16,6 +17,7 @@ function App() {
           />
           <Testimonio 
           image='Emma'
+          alt="Emma's picture"
           name='Emma Bostian'
           country='Sweden'
           job='Software Engineer'
@@ -24,11 +26,12 @@ function App() {
           />
           <Testimonio 
           image='Sarah'
+          alt="Sarah's picture"
           name='Sarah Chima'
           country='Nigeria'
           job='Software Engineer'
           company='ChatDesk'
-          text='Ive always struggled with learning JavaScript. Ive taken many courses but freeCodeCamps course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify.'
+          text="I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamps course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify."
           />
       </main>
     </div>
