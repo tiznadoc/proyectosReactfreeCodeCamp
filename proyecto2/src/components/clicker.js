@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/clicker.css'
 
 function clicker({ text, clickButton, manageClick }) {
     return  (
