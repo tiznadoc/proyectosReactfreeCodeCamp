@@ -1,6 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.png';
-import Clicker from './components/clicker';
+import Clicker from './components/Clicker';
 
 function App() {
 
