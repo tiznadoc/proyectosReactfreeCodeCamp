@@ -1,9 +1,12 @@
 import React from "react";
+import '../stylesheets/counter.css'
 
-function Counter(props) {
+function Counter({ clicksNumber }) {
     return (
-        <div className="counter">
-            {props}
+        <div className='counter'>
+            {clicksNumber}
         </div>
     );
 }
+
+export default Counter;

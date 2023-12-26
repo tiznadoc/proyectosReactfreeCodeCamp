@@ -1,15 +1,19 @@
 import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.png';
 import Clicker from './components/Clicker';
+import Counter from './components/Counter';
+import { useState } from 'react';
 
 function App() {
 
+  const [clicksNumber, setclicksNumber] = useState(0);
+
   const manageClick = () => {
-    console.log('Click');
+    setclicksNumber(clicksNumber + 1);
   }
 
   const rebootCounter = () => {
-    console.log('Reboot');
+    setclicksNumber(0);
   }
 
   return (
@@ -22,6 +26,7 @@ function App() {
         />
       </div>
       <div className='main-container'>
+        <Counter clicksNumber={clicksNumber} />
         <Clicker
           text= 'Click'
           clickButton={true}
