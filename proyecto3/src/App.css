@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  height: 100%;
   padding-top: 10px;
   background-color: #1b1b32;
   font-family: Lato, sans-serif;
@@ -36,4 +36,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.developer-info-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer-info-container p {
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.developer-link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.developer-link:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 4px;
 }
