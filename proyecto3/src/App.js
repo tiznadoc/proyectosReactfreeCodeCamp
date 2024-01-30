@@ -69,9 +69,9 @@ function App() {
           <Button clickManager={addInput}>*</Button>
         </div>
         <div className='row'>
-          <Button clickManager={calculate}>=</Button>
-          <Button clickManager={addInput}>0</Button>
           <Button clickManager={addInput}>.</Button>
+          <Button clickManager={addInput}>0</Button>
+          <Button clickManager={calculate}>=</Button>
           <Button clickManager={addInput}>/</Button>
         </div>
         <div className='row'>
