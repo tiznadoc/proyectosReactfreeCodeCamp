@@ -6,6 +6,7 @@ import Input from './components/Input';
 import Clear from './components/Clear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
+import DeveloperInfo from './components/DeveloperInfo';
 
 function App() {
 
@@ -80,17 +81,7 @@ function App() {
         </div>
       </div>
       <div className="developer-info-container">
-        <p>
-          developed by{' '}
-          <a
-            href="https://github.com/tiznadoc"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="developer-link"
-          >
-            tiznadoc
-          </a>
-        </p>
+        <DeveloperInfo />
       </div>
     </div>
   );
